@@ -1,0 +1,5 @@
+
+image: centos:7
+
+volumes:
+    - ./export:/export
