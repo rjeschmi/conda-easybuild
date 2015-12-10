@@ -1,5 +1,5 @@
 
-image: centos:7
-
-volumes:
-    - ./export:/export
+conda:
+    build: .
+    volumes:
+        - ./export:/export
